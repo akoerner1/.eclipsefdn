@@ -22,7 +22,16 @@ orgs.newOrg('automotive.adore', 'eclipse-adore') {
       gh_pages_source_branch: "gh-pages",
       gh_pages_source_path: "/docs",
       has_wiki: false,
-      homepage: "https://dlr-ts.github.io/adore/",
+      homepage: "https://https://eclipse-adore.github.io/adore/",
+      topics+: [
+        "automated-driving",
+        "motion-planning",
+        "ros",
+        "simulation",
+        "vehicle-communication",
+        "vehicle-control",
+        "vehicle-dynamics"
+      ],
       merge_commit_message: "PR_BODY",
       merge_commit_title: "PR_TITLE",
       secret_scanning: "disabled",
@@ -74,7 +83,7 @@ orgs.newOrg('automotive.adore', 'eclipse-adore') {
       gh_pages_build_type: "legacy",
       gh_pages_source_branch: "gh-pages",
       gh_pages_source_path: "/docs",
-      homepage: "https://eclipse.github.io/adore/",
+      homepage: "https://eclipse-adore.github.io/adore_ROS1/",
       topics+: [
         "automated-driving",
         "motion-planning",
