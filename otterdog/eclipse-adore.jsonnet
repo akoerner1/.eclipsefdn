@@ -2,8 +2,8 @@ local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
 orgs.newOrg('automotive.adore', 'eclipse-adore') {
   settings+: {
-    description: "",
-    name: "Eclipse Adore project",
+    description: "Eclipse ADORe is a ROS 2 based modular software library and toolkit for decision making, planning, control and simulation of automated vehicles supporting CARLA and SUMO.",
+    name: "Eclipse ADORe project",
     web_commit_signoff_required: false,
     workflows+: {
       actions_can_approve_pull_request_reviews: false,
@@ -17,12 +17,12 @@ orgs.newOrg('automotive.adore', 'eclipse-adore') {
       allow_update_branch: false,
       default_branch: "develop",
       delete_branch_on_merge: false,
-      description: "Eclipse ADORe is a ROS based modular software library and toolkit for decision making, planning, control and simulation of automated vehicles supporting CARLA and SUMO.",
+      description: "Eclipse ADORe is a ROS 2 based modular software library and toolkit for decision making, planning, control and simulation of automated vehicles supporting CARLA and SUMO.",
       gh_pages_build_type: "legacy",
       gh_pages_source_branch: "gh-pages",
       gh_pages_source_path: "/docs",
       has_wiki: false,
-      homepage: "https://https://eclipse-adore.github.io/adore/",
+      homepage: "https://eclipse-adore.github.io/adore/",
       topics+: [
         "automated-driving",
         "motion-planning",
@@ -79,7 +79,7 @@ orgs.newOrg('automotive.adore', 'eclipse-adore') {
       default_branch: "master",
       delete_branch_on_merge: false,
       dependabot_security_updates_enabled: true,
-      description: "Eclipse ADORe is a ROS based modular software library and toolkit for decision making, planning, control and simulation of automated vehicles supporting CARLA and SUMO.",
+      description: "Eclipse ADORe is a ROS 1 based modular software library and toolkit for decision making, planning, control and simulation of automated vehicles supporting CARLA and SUMO.",
       gh_pages_build_type: "legacy",
       gh_pages_source_branch: "gh-pages",
       gh_pages_source_path: "/docs",
