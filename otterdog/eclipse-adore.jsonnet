@@ -97,7 +97,7 @@ orgs.newOrg('automotive.adore', 'eclipse-adore') {
     orgs.newRepo('adore_cli') {
       allow_merge_commit: true,
       allow_update_branch: false,
-      default_branch: "master",
+      default_branch: "ros2",
       delete_branch_on_merge: false,
       dependabot_alerts_enabled: false,
       description: "The ADORe CLI provides a containerized ROS based development environment for the ADORe project leveraging GNU Make as a command runner",
