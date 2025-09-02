@@ -109,7 +109,7 @@ orgs.newOrg('automotive.adore', 'eclipse-adore') {
       default_branch: "ros2",
       delete_branch_on_merge: false,
       dependabot_alerts_enabled: false,
-      description: "The ADORe CLI provides a containerized ROS based development environment for the ADORe project leveraging GNU Make as a command runner",
+      description: "The ADORe CLI provides a Docker compose containerized ROS based development environment for the ADORe project leveraging GNU Make as a command runner",
       homepage: "",
       secret_scanning: "disabled",
       secret_scanning_push_protection: "disabled",
