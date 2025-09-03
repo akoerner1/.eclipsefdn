@@ -2,7 +2,7 @@ local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
 orgs.newOrg('automotive.adore', 'eclipse-adore') {
   settings+: {
-    description: "Eclipse ADORe is a ROS 2 based modular software library and toolkit for decision making, planning, control and simulation of automated vehicles supporting CARLA and SUMO.",
+    description: "Eclipse ADORe is a ROS 2 toolkit for decision making, planning, control and simulation of automated vehicles supporting CARLA and SUMO.",
     name: "Eclipse ADORe project",
     web_commit_signoff_required: false,
     workflows+: {
@@ -17,7 +17,7 @@ orgs.newOrg('automotive.adore', 'eclipse-adore') {
       allow_update_branch: false,
       default_branch: "develop",
       delete_branch_on_merge: false,
-      description: "Eclipse ADORe is a ROS 2 based modular software library and toolkit for decision making, planning, control and simulation of automated vehicles supporting CARLA and SUMO.",
+      description: "Eclipse ADORe is a ROS 2 modular toolkit for decision making, planning, control and simulation of automated vehicles supporting CARLA and SUMO.",
       gh_pages_build_type: "legacy",
       gh_pages_source_branch: "gh-pages",
       gh_pages_source_path: "/docs",
